@@ -4,4 +4,5 @@ RUN apt-get update && apt-get install -y \
     man \
     vim \
     python \
-    python3
+    python3 \
+    curl
