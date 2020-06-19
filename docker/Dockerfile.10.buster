@@ -1,8 +1,9 @@
-FROM debian:stretch
+FROM debian:buster
 
 RUN apt-get update && apt-get install -y \
     man \
     vim \
     python \
     python3 \
-    curl
+    curl \
+    lsb-release
