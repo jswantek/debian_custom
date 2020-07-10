@@ -6,4 +6,6 @@ RUN apt-get update && apt-get install -y \
     python \
     python3 \
     curl \
-    lsb-release
+    lsb-release \
+    qemu \
+    qemu-user-static
