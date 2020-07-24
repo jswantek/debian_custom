@@ -8,4 +8,5 @@ RUN apt-get update && apt-get install -y \
     curl \
     lsb-release \
     qemu \
-    qemu-user-static
+    qemu-user-static \
+    file
