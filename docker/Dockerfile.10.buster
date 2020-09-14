@@ -1,12 +1,12 @@
 FROM debian:buster
 
 RUN apt-get update && apt-get install -y \
+    curl \
+    file \
+    lsb-release \
     man \
-    vim \
     python \
     python3 \
-    curl \
-    lsb-release \
     qemu \
     qemu-user-static \
-    file
+    vim
